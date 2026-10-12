@@ -1,0 +1,14 @@
+name: Prepare Dzen Article
+
+on:
+  workflow_dispatch:
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Start
+        run: |
+          echo "Dzen Auto Publisher is working!"
+          echo "Next step: prepare article content and cover."
